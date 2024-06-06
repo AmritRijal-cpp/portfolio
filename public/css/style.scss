@@ -1,0 +1,11 @@
+$primary-color: #dc296c;
+$background: #111111;
+$primary-font: #ffffff;
+$discription: #bebebe;
+
+
+@import 'navbar';
+
+main {
+    @import 'section-potfolio';
+}

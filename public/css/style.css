@@ -1,0 +1,64 @@
+header {
+  background-color: #1c1d21;
+}
+header .navbar .container-fluid {
+  padding: 0;
+}
+header .navbar .container-fluid .btn {
+  background-color: #dc296c;
+  border: none;
+}
+header .navbar .container-fluid .navbar-nav li {
+  padding: 0 18px;
+}
+header .navbar .container-fluid .navbar-nav li .nav-link {
+  padding: 8px 0;
+  color: #ffffff;
+  position: relative;
+}
+header .navbar .container-fluid .navbar-nav li .nav-link::after {
+  content: "";
+  position: absolute;
+  top: auto;
+  left: 0;
+  top: calc(100% + 1rem - 3px);
+  width: 100%;
+  height: 3px;
+  background-color: #dc296c;
+  transform-origin: left;
+  transform: scale(0);
+  transition: transform 0.4s;
+}
+header .navbar .container-fluid .navbar-nav li .nav-link:hover::after {
+  transform: scale(1);
+}
+header .navbar .container-fluid .navbar-nav li .nav-link .nav-link.active::after {
+  transform: scale(1);
+}
+
+main .section-projects {
+  background-color: #111111;
+  color: #ffffff;
+}
+main .section-projects .container-xxl .projects p {
+  color: #bebebe;
+}
+main .section-projects .container-xxl .achivements {
+  background-color: #dc296c;
+  border-radius: 20px;
+  min-width: 100%;
+}
+main .section-projects .container-xxl .achivements .achivement {
+  padding: 20px;
+  min-height: 300px;
+  flex-basis: 100%;
+}
+main .section-projects .container-xxl .achivements .section-2 {
+  border-left: 1px #ffffff;
+}
+main .section-projects .container-xxl .achivements .section-3 {
+  border-left: 1px #ffffff;
+}
+main .section-projects .container-xxl .achivements .section-4 {
+  border-left: 1px #ffffff;
+}/*# sourceMappingURL=style.css.map */

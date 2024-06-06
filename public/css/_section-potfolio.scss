@@ -1,0 +1,38 @@
+.section-projects {
+    background-color: $background;
+    color: $primary-font;
+
+    .container-xxl {
+
+        .projects {
+
+            p {
+                color: $discription;
+            }
+        }
+
+        .achivements {
+            background-color: $primary-color;
+            border-radius: 20px;
+            min-width: 100%;
+
+            .achivement {
+                padding: 20px;
+                min-height: 300px;
+                flex-basis: 100%;
+            }
+
+            .section-2 {
+                border-left: 1px $primary-font;
+            }
+
+            .section-3 {
+                border-left: 1px $primary-font;
+            }
+
+            .section-4 {
+                border-left: 1px $primary-font;
+            }
+        }
+    }
+}
