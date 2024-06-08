@@ -1,5 +1,5 @@
 header {
-  background-color: #1c1d21;
+  background-color: #1a1b1f;
 }
 header .navbar .container-fluid {
   padding: 0;
@@ -36,29 +36,48 @@ header .navbar .container-fluid .navbar-nav li .nav-link .nav-link.active::after
   transform: scale(1);
 }
 
-main .section-projects {
+main {
+  background-color: #111111;
+}
+main .section-information {
   background-color: #111111;
   color: #ffffff;
+  padding-bottom: 80px;
 }
-main .section-projects .container-xxl .projects p {
+main .section-information .container-xxl {
+  padding: 0;
+}
+main .section-information .container-xxl .projects p {
   color: #bebebe;
 }
-main .section-projects .container-xxl .achivements {
+main .section-information .container-xxl .achivements {
   background-color: #dc296c;
   border-radius: 20px;
   min-width: 100%;
 }
-main .section-projects .container-xxl .achivements .achivement {
+main .section-information .container-xxl .achivements .achivement {
   padding: 20px;
   min-height: 300px;
   flex-basis: 100%;
 }
-main .section-projects .container-xxl .achivements .section-2 {
+main .section-information .container-xxl .achivements .section-2 {
   border-left: 1px #ffffff;
 }
-main .section-projects .container-xxl .achivements .section-3 {
+main .section-information .container-xxl .achivements .section-3 {
   border-left: 1px #ffffff;
 }
-main .section-projects .container-xxl .achivements .section-4 {
+main .section-information .container-xxl .achivements .section-4 {
   border-left: 1px #ffffff;
+}
+main .section-about-us {
+  padding-bottom: 80px;
+}
+main .section-about-us .container-xxl {
+  padding: 0;
+}
+main .section-about-us .container-xxl .checkbox-filter button {
+  background-color: #242424;
+  border: 1px solid #4f4f4f;
+  padding: 10px 30px;
+  font-size: 1.2rem;
 }/*# sourceMappingURL=style.css.map */

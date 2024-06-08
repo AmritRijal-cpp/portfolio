@@ -56,7 +56,7 @@
     </div>
 
     <main>
-        <section class="section-projects">
+        <section class="section-information">
             <div class="container-xxl text-center">
                 <div class="projects ">
                     <h1 class="">Projects</h1>
@@ -116,7 +116,27 @@
                 </div>
             </div>
         </section>
-        <section class="section about-us"></section>
+        <section class="section-about-us">
+            <div class="container-xxl text-center">
+                <div class="checkbox-filter dropdown">
+                    <button class="btn btn-secondary dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Services
+                    </button>
+                    <ul class="dropdown-menu">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="services">
+                            <label class="form-check-label" for="services">
+                                <li class="dropdown-item">Web Development</li>
+                            </label>
+                        </div>
+
+                        
+                        <li><a href="#" class="dropdown-item"></a></li>
+                        <li><a href="#" class="dropdown-item"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
         <section class="section contact-us"></section>
     </main>
 

@@ -1,11 +1,16 @@
 $primary-color: #dc296c;
 $background: #111111;
+$secondary: #242424;
+$navbar: #1a1b1f;
 $primary-font: #ffffff;
 $discription: #bebebe;
+$border: #4f4f4f;
 
 
 @import 'navbar';
 
 main {
-    @import 'section-potfolio';
+    background-color: $background;
+    @import 'section-information';
+    @import '_section-about-us';
 }
