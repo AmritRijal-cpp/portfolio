@@ -3,13 +3,19 @@
     color: $primary-font;
     padding-bottom: 80px;
 
-    .container-xxl {
+    .container {
         padding: 0;
+
+        @media (max-width: 575px) {
+            padding: 0 25px;
+        }
 
         .projects {
 
-            p {
+            .para {
                 color: $discription;
+                max-width: 560px;
+                align-self: center;
             }
         }
 
@@ -17,6 +23,7 @@
             background-color: $primary-color;
             border-radius: 20px;
             min-width: 100%;
+            position: relative;
 
             .achivement {
                 padding: 20px;
@@ -24,17 +31,13 @@
                 flex-basis: 100%;
             }
 
-            .section-2 {
-                border-left: 1px $primary-font;
-            }
-
-            .section-3 {
-                border-left: 1px $primary-font;
-            }
-
+            .section-2,
+            .section-3,
             .section-4 {
-                border-left: 1px $primary-font;
+                border-left: 1px solid $border;
             }
+
+
         }
     }
 }

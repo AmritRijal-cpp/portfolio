@@ -1,0 +1,110 @@
+.section-project {
+    padding-bottom: 80px;
+
+    .container {
+        padding: 0 25px;
+        margin: 0;
+
+        @media (max-width: 575px) {
+            padding: 0 25px;
+        }
+
+        .checkbox-filter {
+
+            button {
+                background-color: $secondary;
+                border: 1px solid $border;
+                padding: 10px 30px;
+                font-size: 1.2rem;
+                margin-bottom: 60px;
+            }
+
+            .dropdown-menu {
+                background-color: $secondary;
+                border: 1px solid $border;
+                color: $primary-font;
+
+                .form-check {
+                    padding: 0.5rem 0.5rem;
+                    border-radius: 0.5rem;
+
+                    &:hover {
+                        background-color: hsla(0, 0%, 100%, 0.199);
+                    }
+
+                    .form-check-input {
+                        margin: 0;
+                        margin-top: 0.4rem;
+                    }
+
+                    .form-check-label {
+
+                        .dropdown-item {
+                            color: $primary-font;
+
+                            &:hover {
+                                text-decoration: none;
+                                background-color: transparent;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .project-list {
+            display: flex;
+            flex-direction: row;
+            border: 1px solid $border;
+            border-radius: 1rem;
+            background-color: $secondary;
+            overflow: hidden;
+            transition: all 0.3s ease;
+
+            &:hover {
+                border: 1px solid $primary-color;
+                transform: scale(1.05);
+                cursor: pointer;
+            }
+
+            .project-info {
+                flex: 1;
+                color: $primary-font;
+                padding: 1rem;
+
+                .about {
+
+                    .table {
+
+
+                        tbody {
+
+                            tr {
+
+                                th {
+                                    background-color: $secondary;
+                                    color: $primary-font;
+                                }
+
+                                td {
+                                    background-color: $secondary;
+                                    color: $primary-font;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .project-picture {
+                flex: 1;
+                padding: 1rem;
+
+                img {
+                    border-radius: 1rem;
+
+                }
+            }
+        }
+    }
+}
