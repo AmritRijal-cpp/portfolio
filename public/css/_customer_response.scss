@@ -1,0 +1,40 @@
+.customer-response {
+    color: $primary-font;
+
+    .container-lg {
+        padding: 80px 25px;
+
+        @media (max-width: 991px) {
+            padding: 0 37px;
+        }
+
+        .row {
+            grid-gap: 10px;
+
+            .left {
+                background-image: linear-gradient(to right, #ba8af1 0%, #5a9cf2 100%);
+                // width: 45%;
+                grid-gap: 20px;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    opacity: 0.8;
+                    cursor: pointer;
+                }
+            }
+
+            .right {
+                background-image: linear-gradient(128deg, #db756c 3% 3%, #a53554 100%);
+                // width: 45%;
+                grid-gap: 20px;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    opacity: 0.8;
+                    cursor: pointer;
+                }
+
+            }
+        }
+    }
+}

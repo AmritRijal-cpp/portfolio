@@ -1,6 +1,36 @@
 .about-us {
-    .container {
-        background-color: $secondary;
+    background-color: $secondary;
 
+    .container-lg {
+        padding: 0 25px;
+
+        @media (max-width: 991px) {
+            padding: 0 25px;
+        }
+
+        .sub-section {
+            background-color: $secondary;
+            grid-gap: 80px;
+
+            .left-side {
+                color: $primary-font;
+
+                h5 {
+                    color: $discription;
+                }
+            }
+
+            .right-side {
+                color: $primary-font;
+
+                h1 {
+                    color: $primary-color;
+                }
+
+                h5 {
+                    color: $primary-font;
+                }
+            }
+        }
     }
 }

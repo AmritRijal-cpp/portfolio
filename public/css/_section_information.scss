@@ -2,11 +2,12 @@
     background-color: $background;
     color: $primary-font;
     padding-bottom: 80px;
+    margin-top: 76px;
 
-    .container {
-        padding: 0;
+    .container-lg {
+        padding: 0 25px;
 
-        @media (max-width: 575px) {
+        @media (max-width: 991px) {
             padding: 0 25px;
         }
 
@@ -34,7 +35,11 @@
             .section-2,
             .section-3,
             .section-4 {
-                border-left: 1px solid $border;
+                border-left: 1px solid #fff;
+                @media (max-width: 767px) {
+                    border-left: none;
+                    border-top: 1px solid #fff;
+                }
             }
 
 

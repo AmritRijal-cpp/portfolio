@@ -1,11 +1,10 @@
 .section-project {
     padding-bottom: 80px;
 
-    .container {
+    .container-lg {
         padding: 0 25px;
-        margin: 0;
 
-        @media (max-width: 575px) {
+        @media (max-width: 991px) {
             padding: 0 25px;
         }
 

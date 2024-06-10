@@ -1,0 +1,28 @@
+.section-contact-us {
+    color: $primary-font;
+
+    .container-lg {
+        padding: 0 25px;
+
+        @media (max-width: 991px) {
+            padding: 0 37px;
+        }
+
+        .row {
+            background-color: $primary-color;
+
+            .right {
+                background-color: $background;
+                padding: 2rem 2.75rem;
+
+                .form {
+
+                    .row {
+                        background-color: $background;
+                    }
+                }
+            }
+
+        }
+    }
+}
